@@ -3,7 +3,7 @@ expect = require('chai').expect
 ChildProcess = require './ChildProcess'
 EventEmitter = require('events').EventEmitter
 path = require 'path'
-phantomjs = require 'phantomjs'
+phantomjs = require 'phantomjs-prebuilt'
 isCoffee = __filename.indexOf('.coffee') > 0
 
 DEFAULT_PATH = process.env.PATH
