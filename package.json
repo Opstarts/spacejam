@@ -1,6 +1,6 @@
 {
   "name": "@opstarts/spacejam",
-  "version": "1.2.3",
+  "version": "1.5.2",
   "dependencies": {
     "chai": "1.9.2",
     "glob": "4.0.6",
@@ -27,13 +27,20 @@
   },
   "bin": {
     "spacejam": "bin/spacejam",
-    "unset-meteor-env": "bin/unset-meteor-env",
+    "spacejam-mocha": "bin/spacejam-mocha",
+    "spacejam-init-bashrc": "bin/spacejam-init-bashrc",
+    "meteor-mocha": "bin/meteor-mocha",
     "mrun": "bin/mrun",
     "mtp": "bin/mtp",
+    "set-meteor-env": "bin/set-meteor-env",
+    "unset-meteor-env": "bin/unset-meteor-env",
+    "mongo-reset": "bin/mongo-reset",
+    "mdeploy": "bin/mdeploy",
     "mpublish": "bin/mpublish",
+    "mmpublish": "bin/mmpublish",
     "npm-publish": "bin/npm-publish"
   },
-  "description": "Test your meteor packages from the command line using phantomjs. Use in continuous integration environments, such as Travis CI.",
+  "description": "Run your meteor package tinytests and mocha tests from the command line with phantomjs.",
   "homepage": "https://github.com/practicalmeteor/spacejam",
   "bugs": "https://github.com/practicalmeteor/spacejam/issues",
   "keywords": [
@@ -41,6 +48,12 @@
     "meteor",
     "test-packages",
     "test-in-console",
+    "tinytest",
+    "mocha",
+    "mocha.js",
+    "practicalmeteor",
+    "practicalmeteor:mocha",
+    "practicalmeteor:mocha-console-runner",
     "ci",
     "continuous integration",
     "cd",
@@ -61,7 +74,7 @@
     "url": "https://github.com/practicalmeteor/spacejam.git"
   },
   "author": {
-    "name": "LaVaina Inc.",
-    "url": "http://LaVaina.com/"
+    "name": "Spacejam.io",
+    "url": "http://spacejam.io/"
   }
 }
