@@ -1,5 +1,5 @@
 {
-  "name": "@opstarts/spacejam",
+  "name": "spacejam",
   "version": "1.5.2",
   "dependencies": {
     "chai": "1.9.2",
